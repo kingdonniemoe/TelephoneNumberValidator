@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: hsla(198, 100%, 50%, 0.693);
+  gap: 25px;
+}
+input {
+  text-align: center;
+  border-radius: 8px;
+  background-color: hsla(198, 84%, 78%, 0.881);
+}
+#buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+#buttons div {
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  width: 100%;
+}
